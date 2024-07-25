@@ -266,9 +266,8 @@ nav{
 }
 
 .myskill .group-skill{
-    display: grid;
-    grid-template-columns: repeat(4,minmax(50px, 1fr));
-    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
@@ -481,10 +480,6 @@ footer .credit p{
         justify-content: center;
     }
 
-    .myskill .group-skill{
-        grid-template-columns: repeat(3, minmax(50px, 1fr));
-    }
-
     .row{
         flex-direction: column;
     }
@@ -511,9 +506,13 @@ footer .credit p{
 
 /* Mobile */
 
-@media (max-width: 425px){
+@media (max-width: 550px){
     html{
         font-size: 60%;
+    }
+
+    .myskill .group-skill > *{
+        flex-basis: 50%;
     }
 }
 
