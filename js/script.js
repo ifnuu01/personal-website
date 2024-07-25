@@ -32,9 +32,9 @@ form.addEventListener('submit', (event) => {
     var message = document.getElementById('pesan').value;
 
     var fullMessage = `
-    Name   : ${name}
-    Email  : ${email}
-    message: ${message}`;
+Name   : ${name}
+Email  : ${email}
+message: ${message}`;
 
 
     var whatsappUrl = `https://wa.me/6289501603099?text=${encodeURIComponent(fullMessage)}`;
