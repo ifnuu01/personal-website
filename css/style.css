@@ -474,6 +474,10 @@ footer .credit p{
     .hero h1, .hero p{
         text-align: center;
     }
+    
+    .myskill .group-skill > *{
+        flex-basis: 50%;
+    }
 
     .content .Button{
         display: flex;
@@ -511,8 +515,5 @@ footer .credit p{
         font-size: 60%;
     }
 
-    .myskill .group-skill > *{
-        flex-basis: 50%;
-    }
 }
 
