@@ -482,7 +482,7 @@ footer .credit p{
     }
 
     .myskill .group-skill{
-        grid-template-columns: repeat(2, minmax(50px, 1fr));
+        grid-template-columns: repeat(3, minmax(50px, 1fr));
     }
 
     .row{
